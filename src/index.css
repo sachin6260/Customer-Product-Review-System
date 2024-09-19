@@ -1,0 +1,9 @@
+ /* Global Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+  line-height: 1.6;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #7091E6;
+}

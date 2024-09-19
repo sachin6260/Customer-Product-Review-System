@@ -1,0 +1,157 @@
+/* Product Detail Container */
+.product-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Product Title and Description */
+  .product-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .product-detail p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  /* Product Image */
+  .product-image {
+     width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+   }
+  
+  /* Reviews Section */
+  .reviews-section {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Average Rating */
+  .average-rating {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .average-rating .stars {
+    display: flex;
+    margin-right: 10px; /* Space between stars and rating text */
+  }
+  
+  .average-rating .stars .fa-star {
+    color: #e4e5e9; /* Default star color (unselected) */
+    font-size: 1.5rem; /* Star size */
+  }
+  
+  .average-rating .stars .fa-star.active {
+    color: #ffc107; /* Star color when selected */
+  }
+  
+  /* Review Form */
+  .review-form {
+    margin-bottom: 20px;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .review-form .star-rating {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .review-form .star-rating .fa-star {
+    color: #e4e5e9; /* Default star color (unselected) */
+    cursor: pointer;
+  }
+  
+  .review-form .star-rating .fa-star.active {
+    color: #ffc107; /* Star color when selected */
+  }
+  
+  .review-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .review-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Review Items */
+  .review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .review-item p {
+    margin: 5px 0;
+  }
+  
+  .review-item .review-text {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .review-item .review-date {
+    font-size: 0.8rem;
+    color: white;
+  }
+  
+  .review-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .review-item button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Sorting Buttons */
+  .sort-buttons {
+    margin-top: 10px;
+  }
+  
+  .sort-buttons button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .sort-buttons button:hover {
+    background-color: #138496;
+  }
+  

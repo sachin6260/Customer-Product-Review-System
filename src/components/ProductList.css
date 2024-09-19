@@ -1,0 +1,73 @@
+/* Container for the product list */
+.product-list {
+    padding: 20px;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .product-list h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Grid layout for the product cards */
+  .product-list ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* List item styling */
+  .product-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px; /* Padding inside each card */
+    font-size: 0.9rem; /* Smaller font size for compact view */
+  }
+  
+  /* Card hover effect */
+  .product-list li:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .product-list img {
+    width: 100%; /* Make the image fit the card width */
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  /* Product title styling */
+  .product-list h2 {
+    font-size: 1.2rem; /* Slightly smaller title size */
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Product price styling */
+  .product-list p {
+    font-size: 1rem; /* Slightly smaller price size */
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  /* Link styling */
+  .product-list a {
+    text-decoration: none;
+    color: inherit; /* Ensure the link color matches the card content */
+  }
+  
